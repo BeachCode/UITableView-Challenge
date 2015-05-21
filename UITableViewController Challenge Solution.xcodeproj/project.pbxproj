@@ -13,6 +13,7 @@
 		C9E39BAC1B0E67A50011F9B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E39BAB1B0E67A50011F9B2 /* Images.xcassets */; };
 		C9E39BAF1B0E67A50011F9B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E39BAD1B0E67A50011F9B2 /* LaunchScreen.xib */; };
 		C9E39BBB1B0E67A50011F9B2 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E39BBA1B0E67A50011F9B2 /* UITableViewController_Challenge_SolutionTests.m */; };
+		C9E39BC61B0E6A700011F9B2 /* TableViewControllerChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E39BC51B0E6A700011F9B2 /* TableViewControllerChallenge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 		C9E39BB41B0E67A50011F9B2 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E39BB91B0E67A50011F9B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9E39BBA1B0E67A50011F9B2 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		C9E39BC41B0E6A700011F9B2 /* TableViewControllerChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerChallenge.h; sourceTree = "<group>"; };
+		C9E39BC51B0E6A700011F9B2 /* TableViewControllerChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerChallenge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				C9E39BA21B0E67A50011F9B2 /* AppDelegate.h */,
 				C9E39BA31B0E67A50011F9B2 /* AppDelegate.m */,
+				C9E39BC41B0E6A700011F9B2 /* TableViewControllerChallenge.h */,
+				C9E39BC51B0E6A700011F9B2 /* TableViewControllerChallenge.m */,
 				C9E39BA81B0E67A50011F9B2 /* Main.storyboard */,
 				C9E39BAB1B0E67A50011F9B2 /* Images.xcassets */,
 				C9E39BAD1B0E67A50011F9B2 /* LaunchScreen.xib */,
@@ -216,6 +221,7 @@
 			files = (
 				C9E39BA41B0E67A50011F9B2 /* AppDelegate.m in Sources */,
 				C9E39BA11B0E67A50011F9B2 /* main.m in Sources */,
+				C9E39BC61B0E6A700011F9B2 /* TableViewControllerChallenge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
